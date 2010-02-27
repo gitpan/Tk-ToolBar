@@ -1,6 +1,6 @@
-
 package Tk::ToolBar;
 
+use 5.005;
 use strict;
 use Tk::Frame;
 use Tk::Balloon;
@@ -14,7 +14,7 @@ use POSIX qw/ceil/;
 Construct Tk::Widget 'ToolBar';
 
 use vars qw/$VERSION/;
-$VERSION = 0.09;
+$VERSION = '0.10';
 
 my $edgeH = 24;
 my $edgeW = 5;
@@ -793,7 +793,7 @@ Tk::ToolBar - A toolbar widget for Perl/Tk
         use Tk;
         use Tk::ToolBar;
 
-        my $mw = new MainWindow;
+        my $mw = MainWindow->new;
         my $tb = $mw->ToolBar(qw/-movable 1 -side top
                                  -indicatorcolor blue/);
 

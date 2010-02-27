@@ -2,5 +2,9 @@ Changes
 Makefile.PL
 MANIFEST
 README
-test.pl
+t/test.t
+t/pod.t
 ToolBar.pm
+ToolBar/tkIcons
+toolbar.pl
+META.yml                                 Module meta-data (added by MakeMaker)
